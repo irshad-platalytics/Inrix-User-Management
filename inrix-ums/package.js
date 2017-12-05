@@ -26,6 +26,6 @@ Package.onUse(function (api) {
   api.use(packages);
   api.use(clientPackages, 'client');
 
-  /*api.mainModule('client/inrix-lib.js', 'client');
-  api.mainModule('server/inrix-lib.js', 'server');*/
+  api.mainModule('client/inrix-ums.js', 'client');
+  api.mainModule('server/inrix-ums.js', 'server');
 });
